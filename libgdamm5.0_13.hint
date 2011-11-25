@@ -1,0 +1,5 @@
+category: Gnome
+requires: libgcc1 libglib2.0_0 libglibmm2.4_1 libgda5.0_4 libsigc2.0_0 libstdc++6
+external-source: libgdamm5.0
+sdesc: "C++ bindings for libgda-5.0 (runtime)"
+ldesc: "C++ bindings for libgda-5.0"
