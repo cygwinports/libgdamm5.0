@@ -1,5 +1,0 @@
-category: Gnome
-requires: libgdamm5.0_13 libglib2.0-devel libglibmm2.4-devel libgda5.0-devel libsigc2.0-devel libstdc++6-devel
-external-source: libgdamm5.0
-sdesc: "C++ bindings for libgda-5.0 (development)"
-ldesc: "C++ bindings for libgda-5.0"

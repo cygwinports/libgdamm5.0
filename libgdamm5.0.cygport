@@ -1,0 +1,14 @@
+inherit gtkmm
+
+NAME="libgdamm5.0"
+VERSION=4.99.7
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="C++ bindings for libgda-5.0"
+DESCRIPTION="Official GTKmm C++ bindings for the GNOME Data Access library"
+
+PKG_NAMES="${NAME}_13 ${NAME}-devel ${NAME}-doc"
+libgdamm5_0_13_CONTENTS="--exclude=libgdamm-5.0 usr/bin/*-5.0-13.dll usr/share/doc/"
+libgdamm5_0_devel_CONTENTS="usr/include/ usr/lib/"
+libgdamm5_0_doc_CATEGORY="Doc"
+libgdamm5_0_doc_CONTENTS="usr/share/devhelp/ usr/share/doc/libgdamm-5.0/"

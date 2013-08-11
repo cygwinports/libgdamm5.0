@@ -1,5 +1,0 @@
-inherit gtkmm
-
-PKG_NAMES="${PN}_13 ${PN}-devel"
-libgdamm5_0_13_CONTENTS="--exclude=libgdamm-5.0 usr/bin/*-5.0-13.dll usr/share/doc/"
-libgdamm5_0_devel_CONTENTS='usr/include/ usr/lib/ usr/share/devhelp/ usr/share/doc/libgdamm-5.0/'
